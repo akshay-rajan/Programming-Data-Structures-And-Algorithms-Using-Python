@@ -1,9 +1,7 @@
 # Select the next element in the sorted order and exchange it with the values at the beginning of the list
 
 def selection_sort(arr):
-    # For each element in the array
     for start in range(len(arr)):
-        # Set the minimum position to the current index
         minpos = start
         # For each element in the array starting from the current index
         for i in range(start, len(arr)):
